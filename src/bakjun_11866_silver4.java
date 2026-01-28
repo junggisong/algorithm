@@ -21,7 +21,7 @@ public class bakjun_11866_silver4 {
             int n = q.poll();
             if(chk == second){
 
-                sb.append(q.isEmpty()?n : n +", .");
+                sb.append(q.isEmpty()?n : n +", ");
                 chk = 1;
             }else{
                 q.add(n);
